@@ -2,18 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  overflow: hidden; /* Hide scrollbars */
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
+::-webkit-scrollbar {display:none;}
 
+.container {
+  overflow: hidden; /* Hide scrollbars */
 
-/* ::selection {
-    background: #476369;
-    color: #fff;
+  max-height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  min-width: 100%;
+}
+.panel {
+  overflow: hidden; /* Hide scrollbars */
+
+  scroll-snap-align: start;
+  height: 100vh;
+  min-width: 100%;
+}
+
+/* .parent {
+  overflow: scroll;
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(100vh);
+  scroll-snap-type: y mandatory;
 } */
+
+/* section {
+  height: 100vh;
+  scroll-snap-align: start;
+  position: relative;
+} */
+
+/*
+
 
 html, body {
   height: 100vh;
@@ -46,29 +76,13 @@ body,html {
 }
 
 .header-section {
-  position: sticky;
-  -webkit-box-sizing:border-box;
-  -moz-box-sizing:border-box;
-  box-sizing:border-box;
+
   border: solid 10px white;
   height: 100vh;
   padding: 20px;
-  z-index: 4;
 }
 
-.parent {
-  overflow: scroll;
-  height: 100vh;
-  scroll-snap-type: mandatory;
-  scroll-snap-points-y: repeat(100vh);
-  scroll-snap-type: y mandatory;
-}
 
-section {
-  height: 100vh;
-  scroll-snap-align: start;
-  position: relative;
-}
 
 .one {
 
@@ -292,3 +306,4 @@ section {
 
 }
 
+*/

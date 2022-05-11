@@ -1,21 +1,20 @@
 import React from 'react'
 
-const Home = () => {
+const Photography = () => {
     return (
-        <div name='home' className='panel border-8 border-white w-full  h-screen bg-pink-700 text-gray-300     
-        '>
+        <div name='photography' className='panel border-gray-50 border-8 bg-violet-900 text-gray-300 overflow-scroll'>
             <div className='flex flex-col justify-center items-center w-full h-full'>
                 <div>
-                    <p>Home </p>
+                    <p>Photography </p>
                 </div>
                 <div>
-
+                    
                 </div>
                 
             </div>
-            
+           
         </div>
     )
 }
 
-export default Home
+export default Photography

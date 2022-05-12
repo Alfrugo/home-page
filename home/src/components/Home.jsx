@@ -10,6 +10,10 @@ const Home = () => {
                     <img className="myVideo" src={ADreel} alt="AD-reel" />
                 </div>
 
+                <div className="slider-title">
+                    <h1>Brand Strategy</h1>
+                </div>
+
                 <div className='flex slider-image'>
                     <img className="myVideo" src={ADreel} alt="AD-reel" />
                 </div>

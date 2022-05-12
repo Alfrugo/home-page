@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://use.typekit.net/hon4rty.css');
+
+@layer base (
+  body {
+    @apply font-[acumin-pro]
+  }
+)
+
 
 
 code {
@@ -77,6 +85,18 @@ code {
   z-index: 18;
 }
 
+h1 {
+  margin: 0;
+  margin-top: 200px;
+  color: #bfd09e;
+  font-size: 110px;
+  font-family: acumin-pro;
+  font-weight: 600;
+  line-height: 84px;
+  opacity: 0.5;
+  letter-spacing: -6px;
+}
+
 /* .parent {
   overflow: scroll;
   scroll-snap-type: mandatory;
@@ -98,16 +118,7 @@ html, body {
   overflow: hidden;
 }
 
-h1 {
-  margin: 0;
-  margin-top: 110px;
-  color: #bfd09e;
-  font-size: 110px;
-  font-family: acumin-pro, sans-serif;
-  line-height: 84px;
-  opacity: 0.5;
-  letter-spacing: -6px;
-}
+
 
 p {
   margin: 0;

@@ -1,5 +1,5 @@
 import React from 'react';
-import ADreel from '../assets/Ad-reel.gif';
+import Spheres from '../assets/digitally-engaged.jpg';
 import Tracks from '../assets/tracks.svg'
 
 const WebDev = () => {
@@ -8,11 +8,11 @@ const WebDev = () => {
             <div className='relative  w-full h-full'>
          
                 <div className='slider-title-bar'>
-                    <img className="myVideo" src={ADreel} alt="AD-reel" />
+                    <img className="myVideo" src={Spheres} alt="AD-reel" />
                 </div>
 
                 <div className="slider-title">
-                    <h1>Br<span className='text-white'>and </span>Strategy</h1>
+                    <h1>Web Development</h1>
                 </div>
                 <div className='tracks'>
                     <img  src={Tracks} alt="graphic element"/>
@@ -20,7 +20,7 @@ const WebDev = () => {
                 </div>
 
                 <div className='flex slider-image'>
-                    <img className="myVideo" src={ADreel} alt="AD-reel" />
+                    <img className="myVideo" src={Spheres} alt="AD-reel" />
                 </div>
             </div>            
         </div>

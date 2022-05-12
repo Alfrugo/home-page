@@ -10,7 +10,11 @@
   }
 )
 
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* this is very important to avoid unwanted scroll with mouse */
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

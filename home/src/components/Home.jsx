@@ -1,19 +1,19 @@
-import React from 'react'
+import React from 'react';
+import ADreel from '../assets/Ad-reel.gif';
 
 const Home = () => {
     return (
-        <div name='home' className='panel border-8 border-white w-full  h-screen bg-pink-700 text-gray-300     
-        '>
-            <div className='flex flex-col justify-center items-center w-full h-full'>
-                <div>
-                    <p>Home </p>
+        <div name='home' className='panel border-8 border-white w-full '>
+            <div className='relative  w-full h-full'>
+         
+                <div className='slider-title-bar'>
+                    <img className="myVideo" src={ADreel} alt="AD-reel" />
                 </div>
-                <div>
 
+                <div className='flex slider-image'>
+                    <img className="myVideo" src={ADreel} alt="AD-reel" />
                 </div>
-                
-            </div>
-            
+            </div>            
         </div>
     )
 }

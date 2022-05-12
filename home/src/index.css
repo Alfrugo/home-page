@@ -2,31 +2,79 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  overflow: hidden; /* Hide scrollbars */
-}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
-::-webkit-scrollbar {display:none;}
+::-webkit-scrollbar {display:none;}  
 
 .container {
-  overflow: hidden; /* Hide scrollbars */
-
   max-height: 100vh;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
   min-width: 100%;
+  background-color: #202426;
 }
 .panel {
-  overflow: hidden; /* Hide scrollbars */
-
   scroll-snap-align: start;
   height: 100vh;
   min-width: 100%;
+}
+
+.myVideo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  z-index: 18;
+}
+
+.slider {
+  position: relative;
+  margin-top: 10vh;
+}
+.slider-title {
+  position: absolute;
+  width: 600px;
+  margin-left: 80px;
+  z-index: 3;
+}
+.slider-title-bar {
+  position: absolute;
+  margin-left:30px;
+  margin-top: 210px;
+  background: red;
+  width: 25px;
+  height: 169px;
+  overflow: hidden;
+  z-index: 4;
+}
+
+.slider-image {
+  position: absolute;
+  background: red;
+  width: 73%;
+  height: 70vh;
+  margin-left: 271px;
+  margin-top: 100px;
+  z-index: 1;
+}
+
+.sub-slider-image {
+  background: red;
+  width: 93%;
+  height: 80vh;
+  margin-left: 27px;
+  z-index: 1;
+}
+
+.myVideoBar {
+  height: 100%;
+  overflow: hidden;
+  z-index: 18;
 }
 
 /* .parent {
@@ -175,13 +223,7 @@ body,html {
   z-index: 1;
 }
 
-.myVideo {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  overflow: hidden;
-  z-index: 18;
-}
+
 
 .myVideoBar {
   height: 100%;

@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Photography = () => {
+const WebDev = () => {
     return (
         <div name='photography' className='panel border-gray-50 border-8  text-gray-300 overflow-scroll'>
             <div className='flex flex-col justify-center items-center w-full h-full'>
                 <div>
-                    <p>Photography </p>
+                    <p>Web Dev </p>
                 </div>
                 <div>
                     
@@ -17,4 +17,4 @@ const Photography = () => {
     )
 }
 
-export default Photography
+export default WebDev

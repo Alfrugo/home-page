@@ -1,5 +1,6 @@
 import React from 'react';
 import ADreel from '../assets/Ad-reel.gif';
+import Tracks from '../assets/tracks.svg'
 
 const Home = () => {
     return (
@@ -11,7 +12,11 @@ const Home = () => {
                 </div>
 
                 <div className="slider-title">
-                    <h1>Brand Strategy</h1>
+                    <h1>Br<span className='text-white'>and </span>Strategy</h1>
+                </div>
+                <div className='tracks'>
+                    <img  src={Tracks} alt="graphic element"/>
+
                 </div>
 
                 <div className='flex slider-image'>

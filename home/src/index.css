@@ -47,12 +47,12 @@ code {
 .slider-title {
   position: absolute;
   width: 600px;
-  margin-left: 80px;
+  margin-left: 105px;
   z-index: 3;
 }
 .slider-title-bar {
   position: absolute;
-  margin-left:30px;
+  margin-left:55px;
   margin-top: 210px;
   background: red;
   width: 25px;
@@ -95,6 +95,15 @@ h1 {
   line-height: 84px;
   opacity: 0.5;
   letter-spacing: -6px;
+}
+
+
+.tracks {
+  position: absolute;
+  width: 720px;
+  z-index: 20;
+  margin-top: 420px;
+  margin-left: -100px;
 }
 
 /* .parent {

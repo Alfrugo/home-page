@@ -28,31 +28,31 @@ const Navbar = () => {
             </ul>
 
             {/* Social Icons Menu */}
-            <div className='hidden lg:flex fixed flex-col top-[60%] left-0'> 
+            <div className='hidden lg:flex fixed flex-col top-[70%] left-0'> 
                 <ul>
                     
-                <li className='w-[160px] h-[60px] px-4 bg-blue-600 flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300'> 
-                        <a className='flex justify-between items-center w-full text-gray-50 ' href="/">
+                <li className='w-[150px] h-[40px] px-2 bg-blue-600 flex justify-between items-center ml-[-110px] hover:ml-[-10px] duration-300'> 
+                        <a className='px-5 flex justify-between items-center w-full text-gray-50 ' href="/">
                             LinkedIn
                         </a>
-                        <BsLinkedin size={30}/> 
+                        <BsLinkedin size={20}/> 
                     </li>
-                    <li className='w-[160px] h-[60px] px-4 bg-stone-800 flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300'> 
-                        <a className='flex justify-between items-center w-full text-gray-50 ' href="/">
+                    <li className='w-[150px] h-[40px] px-2 bg-stone-800 flex justify-between items-center ml-[-110px] hover:ml-[-10px] duration-300'> 
+                        <a className='px-5 flex justify-between items-center w-full text-gray-50 ' href="/">
                             Github
                         </a>
-                        <BsGithub size={30}/> 
+                        <BsGithub size={20}/> 
                     </li>
-                    <li className='w-[160px] h-[60px] px-4 bg-purple-800 flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300'> 
-                        <a className='flex justify-between items-center w-full text-gray-50 ' href="/">
+                    <li className='w-[150px] h-[40px] px-2 bg-purple-800 flex justify-between items-center ml-[-110px] hover:ml-[-10px] duration-300'> 
+                        <a className='px-5 flex justify-between items-center w-full text-gray-50 ' href="/">
                             Instagram
                         </a>
-                        <BsInstagram size={30}/> 
+                        <BsInstagram size={20}/> 
                     </li>
-                    <li className='w-[160px] h-[60px] px-4 bg-indigo-800 flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300'> 
-                        <a className='flex justify-between items-center w-full text-gray-50 ' href="/">
+                    <li className='w-[150px] h-[40px] px-2 bg-indigo-800 flex justify-between items-center ml-[-110px] hover:ml-[-10px] duration-300'> 
+                    <a className=' pl-5 flex justify-between items-center w-full text-gray-50 ' href="/">
                             Resume
-                            <BsPersonLinesFill size={30}/> 
+                            <BsPersonLinesFill size={20}/> 
                         </a>
                         
                     </li>

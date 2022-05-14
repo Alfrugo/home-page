@@ -21,7 +21,7 @@ const Navbar = () => {
 
             {/* Menu */}
             <ul className= {!nav ? 'hidden' : 'absolute m-9 top-0 right-0 h-screen bg-gradient-to-r from-gray-700 to-transparent flex flex-col justify-center items-center w-[500px]'}>
-                <li className='py-6 text-4xl'>Marketing</li>
+                <li className='py-6 text-4xl'>Branding</li>
                 <li className='py-6 text-4xl'>Photography</li>
                 <li className='py-6 text-4xl'>Development</li>
                 <li className='py-6 text-4xl'>Contact</li>

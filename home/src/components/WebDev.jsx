@@ -4,7 +4,7 @@ import Tracks from '../assets/tracks.svg'
 
 const WebDev = () => {
     return (
-        <div name='home' className='panel border-8 border-white w-full '>
+        <div name='webdev' className='panel border-8 border-white w-full '>
             <div className='relative  w-full h-full'>
          
                 <div className='slider-title-bar'>

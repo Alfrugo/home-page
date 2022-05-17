@@ -7,7 +7,7 @@ import Contact from './components/Contact'
 
 function App() {
   return (
-    <div className='container w-full'>
+    <div id='appContainer' className='container w-full'>
         <Navbar />
         <Home />
         <Photography />

@@ -2,6 +2,7 @@ import React, { useState }from 'react'
 import Logo from '../assets/Alfredo-Diez.svg'
 import { FaHamburger, FaSmileWink } from 'react-icons/fa';
 import { BsLinkedin, BsInstagram, BsGithub, BsPersonLinesFill } from 'react-icons/bs'
+import { Link } from 'react-scroll'
 
 
 
@@ -21,10 +22,18 @@ const Navbar = () => {
 
             {/* Menu */}
             <ul className= {!nav ? 'hidden' : 'absolute m-9 top-0 right-0 h-screen bg-gradient-to-r from-gray-700 to-transparent flex flex-col justify-center items-center w-[500px]'}>
-                <li className='py-6 text-4xl'>Branding</li>
-                <li className='py-6 text-4xl'>Photography</li>
-                <li className='py-6 text-4xl'>Development</li>
-                <li className='py-6 text-4xl'>Contact</li>
+                <li className='py-6 text-4xl'><Link onClick={handleClick} to='home' smooth={true} duration={500}>
+            Home
+          </Link></li>
+                <li className='py-6 text-4xl'><Link onClick={handleClick} to='photography' smooth={true} duration={500}>
+            Photography
+          </Link></li>
+                <li className='py-6 text-4xl'><Link onClick={handleClick} to='webdev' smooth={true} duration={500}>
+            Development
+          </Link></li>
+                <li className='py-6 text-4xl'><Link onClick={handleClick} to='contact' smooth={true} duration={500}>
+            Contact
+          </Link></li>
             </ul>
 
             {/* Social Icons Menu */}

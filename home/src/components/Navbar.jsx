@@ -5,7 +5,6 @@ import { BsLinkedin, BsInstagram, BsGithub, BsPersonLinesFill } from 'react-icon
 import { Link } from 'react-scroll'
 
 
-
 const Navbar = () => {
     
     const [nav, setNav] = useState(false)

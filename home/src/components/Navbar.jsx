@@ -20,7 +20,7 @@ const Navbar = () => {
             </div>
 
             {/* Menu */}
-            <ul className= {!nav ? 'hidden' : 'absolute m-9 top-0 right-0 h-screen bg-gradient-to-r from-gray-700 to-transparent flex flex-col justify-center items-center w-[500px]'}>
+            <ul className= {!nav ? 'hidden' : 'mobileMenu absolute m-9 top-0 right-0 h-screen bg-gradient-to-r from-gray-700 to-transparent flex flex-col justify-center items-center w-[500px]'}>
                 <li className='py-6 text-4xl'><Link onClick={handleClick} to='branding' containerId='appContainer' smooth={true} duration={500}>Branding</Link></li>
                 <li className='py-6 text-4xl'><Link onClick={handleClick} to='photography' containerId='appContainer' smooth={true} duration={500}>Photography</Link></li>
                 <li className='py-6 text-4xl'><Link onClick={handleClick} to='webdev' containerId='appContainer' smooth={true} duration={500}>Development</Link></li>

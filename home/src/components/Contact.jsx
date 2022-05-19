@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroArch from '../assets/arch.jpg';
+import LetsBuild from '../assets/letsbuild.jpg';
 import Tracks from '../assets/tracks.svg'
 
 const Contact = () => {
@@ -8,7 +8,7 @@ const Contact = () => {
             <div className='relative  w-full h-full'>
          
                 <div className='slider-title-bar'>
-                    <img className="myVideo" src={HeroArch} alt="Contact" />
+                    <img className="myVideo" src={LetsBuild} alt="Contact" />
 
                     
                 </div>
@@ -25,7 +25,7 @@ const Contact = () => {
                 </div>
 
                 <div className='flex slider-image '>
-                    <img className="myVideo " src={HeroArch} alt="Conctact" />
+                    <img className="myVideo " src={LetsBuild} alt="Conctact" />
                     <form className='mobileForm bg-gray-700 flex flex-col min-w-[50%] p-10' action="https://getform.io/f/2ffc1fdc-e1c8-4cbf-a15f-75eb0b822e94" method='POST'>
                         <input className='p-2 m-5' type="text" name="name" placeholder='Name'/>
                         <input className='p-2 m-5' type="email" name="email" placeholder='Email'/>

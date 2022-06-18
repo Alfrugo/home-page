@@ -1,7 +1,7 @@
 import React, { useState }from 'react'
 import Logo from '../assets/Alfredo-Diez.svg'
 import { FaHamburger, FaSmileWink } from 'react-icons/fa';
-import { BsLinkedin, BsInstagram, BsGithub, BsPersonLinesFill } from 'react-icons/bs'
+import { BsLinkedin, BsInstagram, BsGithub } from 'react-icons/bs'
 import { Link } from 'react-scroll'
 
 
@@ -49,13 +49,13 @@ const Navbar = () => {
                         </a>
                         <BsInstagram size={15}/> 
                     </li>
-                    <li className='w-[150px] h-[30px] px-2 bg-indigo-800 flex justify-between items-center ml-[-110px] hover:ml-[-10px] duration-300' > 
+                    {/* <li className='w-[150px] h-[30px] px-2 bg-indigo-800 flex justify-between items-center ml-[-110px] hover:ml-[-10px] duration-300' > 
                     <a className=' pl-5 flex justify-between items-center w-full text-gray-50 ' href="/" target="new">
                             Resume
                             <BsPersonLinesFill size={15}/> 
                         </a>
                         
-                    </li>
+                    </li> */}
                 </ul>
 
             

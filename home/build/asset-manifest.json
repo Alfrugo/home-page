@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3fd6381a.css",
+    "main.js": "/static/js/main.13719ea2.js",
+    "static/media/Ad-reel.gif": "/static/media/Ad-reel.faa583d3e9724cab185d.gif",
+    "static/media/letsbuild.jpg": "/static/media/letsbuild.d01ab71c2b50540aefd4.jpg",
+    "static/media/digitally-engaged.jpg": "/static/media/digitally-engaged.499c1c0aa02754867415.jpg",
+    "static/media/arch.jpg": "/static/media/arch.cc164926812d5eb52f85.jpg",
+    "static/media/tracks.svg": "/static/media/tracks.78bb305d86c0117e9c6aff31fa0761f0.svg",
+    "static/media/Alfredo-Diez.svg": "/static/media/Alfredo-Diez.c2de9af34fe96aac4a68509a84d12968.svg",
+    "index.html": "/index.html",
+    "main.3fd6381a.css.map": "/static/css/main.3fd6381a.css.map",
+    "main.13719ea2.js.map": "/static/js/main.13719ea2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3fd6381a.css",
+    "static/js/main.13719ea2.js"
+  ]
+}
